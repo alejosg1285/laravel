@@ -1,0 +1,19 @@
+{
+  "name": "Proyecto/pdf",
+  "description": "Crear pdf",
+  "author": [
+    {
+      "name": "DiploUAO",
+      "email": "alejosagmail.com"
+    }
+  ],
+  "require": {
+    "raveren/kint": "1.*",
+    "dompdf/dompdf": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "APP\\": "Controller"
+    }
+  }
+}
